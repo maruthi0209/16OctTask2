@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px 20px;
+    background-color: aliceblue;
+}
+.myNav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    position: relative;
+    text-align: center;
+    width: 20%;
+    padding: 0.5rem;
+}
+
+.others {
+    position: relative;
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+main {
+    position: relative;
+    top: 50px;
+    text-align: justify;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
